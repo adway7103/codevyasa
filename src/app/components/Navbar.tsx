@@ -1,7 +1,7 @@
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 function Navbar() {
   return (
-    <div className="text-white  px-[5%] py-[3%]  flex justify-between w-full h-[16vh] absolute z-30">
+    <div className="text-white  px-[5%] py-[3%]  flex justify-between w-full h-[16vh] absolute z-30 fixed">
       <div className="w-[30%] 2xl:text-[3rem] xl:text-[2rem] lg:text-[2rem] font-semibold align-middle flex text-center items-center">
         Logo.
       </div>

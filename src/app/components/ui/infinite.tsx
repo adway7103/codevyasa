@@ -90,7 +90,7 @@ export const InfiniteMovingCards = ({
                 "black",
             }}
           >
-              <div className="relative z-20 mt-6 flex flex-row items-center text-white bg-black">
+              <div className="relative z-20 flex-row items-center text-white bg-black flex justify-center">
                     <img src={item.url} alt="" />
               </div>
           </li>

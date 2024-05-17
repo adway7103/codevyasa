@@ -7,14 +7,14 @@ function Hero() {
       backgroundColor="black"
       className="flex items-center flex-col justify-center px-2 md:px-10 py-4"
     >
-      <div className="h-screen flex flex-col justify-center items-center">
-        <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
+      <div className="h-screen flex flex-col justify-center items-center 2xl:gap-3">
+        <h2 className="text-white text-2xl md:text-6xl 2xl:text-8xl font-bold text-center">
           Start your journey now!
         </h2>
-        <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
+        <p className="text-white text-sm md:text-2xl 2xl:text-4xl 2xl:max-w-3xl max-w-xl mt-6 text-center">
           Propelling Early-Stage Tech Ventures to Unprecedented Heights
         </p>
-        <div className="flex flex-col sm:flex-row items-center gap-4 mt-6 justify-center">
+        <div className="flex flex-col sm:flex-row items-center gap-4 mt-6 justify-center 2xl:text-2xl">
           <button className="px-6 py-2 bg-white hover:bg-black hover:text-white transition duration-200 rounded-full text-black hover:border-[1.1px] border-white">
             See Plans
           </button>

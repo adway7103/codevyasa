@@ -4,7 +4,7 @@ import { InfiniteMovingCards } from './ui/infinite';
 import { useState, useEffect } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 function Sponsor() {
-     const [isInView, setIsInView] = useState(false);
+    const [isInView, setIsInView] = useState(false);
      const controls = useAnimation();
      const ref = React.useRef(null);
 
@@ -28,22 +28,28 @@ function Sponsor() {
      const words = ["better", "cute", "beautiful", "modern"];
     const testimonials = [
       {
-        url: "https://th.bing.com/th/id/OIP.kaXXjkGSpi9kFJYtYsWRqAAAAA?rs=1&pid=ImgDetMain",
+        url: "https://www.etcentric.org/wp-content/uploads/2016/07/Amazon_Logo_Black_bg.jpg",
       },
       {
-        url: "https://freepngdesign.com/content/uploads/images/walmart-logo-5340.png",
+        url: "https://th.bing.com/th/id/OIP.HwMi3C7BkxARkay1J3PdvQAAAA?rs=1&pid=ImgDetMain",
+      },
+      {
+        url: "https://www.etcentric.org/wp-content/uploads/2017/12/Deloitte_Logo.jpg",
+      },
+      {
+        url: "https://th.bing.com/th/id/OIP.UssJ25DxkCH2U-Z0GRV6wAAAAA?w=470&h=330&rs=1&pid=ImgDetMain",
       },
     ];
   return (
-     <motion.div 
+    <motion.div
       ref={ref}
-      initial="hidden" 
+      initial="hidden"
       animate={controls}
-      variants={{ 
+      variants={{
         visible: { opacity: 1, x: 10, transition: { duration: 0.6 } },
         hidden: { opacity: 0, x: 100 },
-          }}
-          className='bg-black'
+      }}
+      className="bg-black mt-[-40px]"
     >
       <div className="flex flex-col justify-center items-center px-4">
         <div className="text-white lg:w-[80%] 2xl:w-[60%] font-bold lg:text-[2.5rem] 2xl:text-[3rem] text-center">
@@ -58,6 +64,7 @@ function Sponsor() {
           speed="fast"
         />
       </div>
+      
     </motion.div>
   );
 }
