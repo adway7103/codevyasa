@@ -5,3 +5,16 @@
 body{
   overflow-x: hidden;
 }
+.gradient-text {
+  background: linear-gradient(90deg,rgb(121, 38, 238), #f0f);
+  background-size: 300% 300%; /* Adjust for speed and smoothness */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite; /* Animation duration and easing */
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
