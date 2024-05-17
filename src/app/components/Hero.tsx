@@ -5,9 +5,9 @@ function Hero() {
   return (
     <Vortex
       backgroundColor="black"
-      className="flex items-center flex-col justify-center px-2 md:px-10 py-4"
+      className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-screen"
     >
-      <div className="h-screen flex flex-col justify-center items-center 2xl:gap-3">
+      <div className="h-screen w-screen flex flex-col justify-center items-center 2xl:gap-3">
         <h2 className="text-white text-2xl md:text-6xl 2xl:text-8xl font-bold text-center">
           Start your journey now!
         </h2>
